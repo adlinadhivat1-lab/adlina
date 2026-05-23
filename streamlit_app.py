@@ -1,8 +1,9 @@
 import streamlit as st
 
 st.set_page_config(
-  page_title="Finance Dashboard",
-  layout="wide"
+  page_title="Kuliah Praktis 2305",
+  page_icon="🧊",
+  layout="centered"
 )
 
 # Hirarki teks
