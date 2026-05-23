@@ -1,19 +1,11 @@
-import streamlit as st
-
-st.title("🎈 Areaseva")
-st.write(
-    "Let's start building! For help and inspiration, head over to [docs.streamlit.io](https://docs.streamlit.io/)."
+# app.py — baris 13
+st.set_page_config(
+  page_title="Finance Dashboard",
+  layout="wide"
 )
-st.markdown("*Streamlit* is **really** ***cool***.")
-st.markdown('''
-    :red[Streamlit] :orange[can] :green[write] :blue[text] :violet[in]
-    :gray[pretty] :rainbow[colors] and :blue-background[highlight] text.''')
-st.markdown("Here's a bouquet &mdash;\
-            :tulip::cherry_blossom::rose::hibiscus::sunflower::blossom:")
 
-multi = '''If you end a line with two spaces,
-a soft return is used for the next line.
-
-Two (or more) newline characters in a row will result in a hard return.
-'''
-st.markdown(multi)
+# Hirarki teks
+st.title("📊 Dashboard")
+st.header("Laporan Bulanan")
+st.subheader("📈 Monthly Expenses")
+st.caption("Made with ❤️ using Streamlit")
